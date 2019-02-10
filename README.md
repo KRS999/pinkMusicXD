@@ -1,7 +1,7 @@
 
 # pinkMusicXD v0.1 Beta
 Простой парсер музыки основанный на [AmplitudeJs](https://521dimensions.com/open-source/amplitudejs) и [mp3ton](https://mp3ton.info)
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
 ```
 Плагины
 ```
