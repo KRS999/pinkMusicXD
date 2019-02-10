@@ -4,6 +4,10 @@
 
 ![Image alt](https://i.postimg.cc/QCyZjJJV/Screen-Shot-20190210153055.png)
 ```
+Демо
+```
+* [pinkMusicXD](https://krs999.github.io/pinkMusicXD/)
+```
 Плагины
 ```
 * [AmplitudeJs](https://521dimensions.com/open-source/amplitudejs)
