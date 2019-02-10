@@ -4,5 +4,5 @@
 ## Плагины
 * [AmplitudeJs](https://521dimensions.com/open-source/amplitudejs)
 * [particles](https://vincentgarreau.com/particles.js/)
-##Разработчик
+## Разработчик
 * [KRS999](https://vk.com/krs999)
