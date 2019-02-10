@@ -1,0 +1,198 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@code-name: 'code';
+@code-x: 85px;
+@code-y: 215px;
+@code-offset-x: -85px;
+@code-offset-y: -215px;
+@code-width: 56px;
+@code-height: 60px;
+@code-total-width: 287px;
+@code-total-height: 275px;
+@code-image: '../../../build/img/sprite.png';
+@code: 85px 215px -85px -215px 56px 60px 287px 275px '../../../build/img/sprite.png' 'code';
+@custom-name: 'custom';
+@custom-x: 0px;
+@custom-y: 215px;
+@custom-offset-x: 0px;
+@custom-offset-y: -215px;
+@custom-width: 60px;
+@custom-height: 60px;
+@custom-total-width: 287px;
+@custom-total-height: 275px;
+@custom-image: '../../../build/img/sprite.png';
+@custom: 0px 215px 0px -215px 60px 60px 287px 275px '../../../build/img/sprite.png' 'custom';
+@design-name: 'design';
+@design-x: 166px;
+@design-y: 215px;
+@design-offset-x: -166px;
+@design-offset-y: -215px;
+@design-width: 41px;
+@design-height: 60px;
+@design-total-width: 287px;
+@design-total-height: 275px;
+@design-image: '../../../build/img/sprite.png';
+@design: 166px 215px -166px -215px 41px 60px 287px 275px '../../../build/img/sprite.png' 'design';
+@free-name: 'free';
+@free-x: 0px;
+@free-y: 130px;
+@free-offset-x: 0px;
+@free-offset-y: -130px;
+@free-width: 79px;
+@free-height: 60px;
+@free-total-width: 287px;
+@free-total-height: 275px;
+@free-image: '../../../build/img/sprite.png';
+@free: 0px 130px 0px -130px 79px 60px 287px 275px '../../../build/img/sprite.png' 'free';
+@pc-name: 'pc';
+@pc-x: 104px;
+@pc-y: 130px;
+@pc-offset-x: -104px;
+@pc-offset-y: -130px;
+@pc-width: 73px;
+@pc-height: 60px;
+@pc-total-width: 287px;
+@pc-total-height: 275px;
+@pc-image: '../../../build/img/sprite.png';
+@pc: 104px 130px -104px -130px 73px 60px 287px 275px '../../../build/img/sprite.png' 'pc';
+@ship-name: 'ship';
+@ship-x: 202px;
+@ship-y: 130px;
+@ship-offset-x: -202px;
+@ship-offset-y: -130px;
+@ship-width: 72px;
+@ship-height: 60px;
+@ship-total-width: 287px;
+@ship-total-height: 275px;
+@ship-image: '../../../build/img/sprite.png';
+@ship: 202px 130px -202px -130px 72px 60px 287px 275px '../../../build/img/sprite.png' 'ship';
+@soc-footer-name: 'soc_footer';
+@soc-footer-x: 0px;
+@soc-footer-y: 0px;
+@soc-footer-offset-x: 0px;
+@soc-footer-offset-y: 0px;
+@soc-footer-width: 134px;
+@soc-footer-height: 40px;
+@soc-footer-total-width: 287px;
+@soc-footer-total-height: 275px;
+@soc-footer-image: '../../../build/img/sprite.png';
+@soc-footer: 0px 0px 0px 0px 134px 40px 287px 275px '../../../build/img/sprite.png' 'soc_footer';
+@soc-footer-hover-name: 'soc_footer_hover';
+@soc-footer-hover-x: 0px;
+@soc-footer-hover-y: 65px;
+@soc-footer-hover-offset-x: 0px;
+@soc-footer-hover-offset-y: -65px;
+@soc-footer-hover-width: 134px;
+@soc-footer-hover-height: 40px;
+@soc-footer-hover-total-width: 287px;
+@soc-footer-hover-total-height: 275px;
+@soc-footer-hover-image: '../../../build/img/sprite.png';
+@soc-footer-hover: 0px 65px 0px -65px 134px 40px 287px 275px '../../../build/img/sprite.png' 'soc_footer_hover';
+@soc-user-name: 'soc_user';
+@soc-user-x: 159px;
+@soc-user-y: 0px;
+@soc-user-offset-x: -159px;
+@soc-user-offset-y: 0px;
+@soc-user-width: 128px;
+@soc-user-height: 40px;
+@soc-user-total-width: 287px;
+@soc-user-total-height: 275px;
+@soc-user-image: '../../../build/img/sprite.png';
+@soc-user: 159px 0px -159px 0px 128px 40px 287px 275px '../../../build/img/sprite.png' 'soc_user';
+@soc-user-hover-name: 'soc_user_hover';
+@soc-user-hover-x: 159px;
+@soc-user-hover-y: 65px;
+@soc-user-hover-offset-x: -159px;
+@soc-user-hover-offset-y: -65px;
+@soc-user-hover-width: 128px;
+@soc-user-hover-height: 40px;
+@soc-user-hover-total-width: 287px;
+@soc-user-hover-total-height: 275px;
+@soc-user-hover-image: '../../../build/img/sprite.png';
+@soc-user-hover: 159px 65px -159px -65px 128px 40px 287px 275px '../../../build/img/sprite.png' 'soc_user_hover';
+@spritesheet-width: 287px;
+@spritesheet-height: 275px;
+@spritesheet-image: '../../../build/img/sprite.png';
+@spritesheet-sprites: @code @custom @design @free @pc @ship @soc-footer @soc-footer-hover @soc-user @soc-user-hover;
+@spritesheet: 287px 275px '../../../build/img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}

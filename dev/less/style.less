@@ -1,0 +1,55 @@
+@import "import/fonts";
+@import "import/normalize";
+@import "import/reset";
+@import "import/_settings";
+@import "import/_mixins";
+@import "import/base";
+@fontBold: 'OpenSansBold', sans-serif;
+@fontRegular: 'OpenSansRegular', sans-serif;
+@fontLight: 'OpenSansLight', sans-serif;
+@color1: #EC94AC; //Pink 1
+@color2: #F7FBFB; //Gray 1
+@color3: #734DA4; // Blue
+@color4: #FAA688; //Yellow vrode huli
+@color5: #67D6BB; //Green
+@color6: #EFF5F5; //Gray 2 
+@color7: #EF6E92; //Pink bright
+@color8: #D3D8DE; //Gray dark 
+@color9: #585B6A; //black font
+@color10: #B6B6B6; //gray font
+@color11: #E5E5E5; //gray font
+@color12: #030200;
+
+body{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: @color2;
+	font: 15px @fontRegular;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+	&:focus{
+		outline: 0;
+	}
+}
+@import "import/icons";
+@import "import/globalStyles";
+@import "import/header";
+@import "import/destinations";
+@import "import/boat";
+@import "import/footer";
+@import "import/media";

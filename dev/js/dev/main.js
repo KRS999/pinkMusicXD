@@ -1,0 +1,1 @@
+import * as myScripts from './myScripts';
